@@ -12,10 +12,12 @@ const styles = StyleSheet.create({
   	text: {
 		color: '#ddd',
         fontSize: 20,
+		fontFamily: 'JetBrainsMono NF'
   	},
 	title: {
 		fontSize: 27,
-		color: "#dff"
+		color: "#dff",
+		fontFamily: 'JetBrainsMono NF'
 	},
   	button: {
 		color: "#fff",
