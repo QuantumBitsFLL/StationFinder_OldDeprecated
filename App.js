@@ -3,9 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import styles from "./Styles.css"
 
 export default function App() {
-  return (
+  return ( 
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text style = { styles.text }>Some cool text</Text>
       <StatusBar style="auto" />
     </View>
   );
