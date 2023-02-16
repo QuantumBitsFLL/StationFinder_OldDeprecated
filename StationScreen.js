@@ -10,3 +10,5 @@ const StationScreen = () => {
         .then( data => setStations( data ) )
     }, [] );
 }
+
+export default StationScreen;
