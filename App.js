@@ -9,13 +9,6 @@ import styles from './Styles.css';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-<<<<<<< HEAD
-  return ( 
-    <View style={styles.container}>
-      <Text style = { styles.text }>Some cool text</Text>
-      <StatusBar style="auto" />
-    </View>
-=======
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -28,6 +21,5 @@ export default function App() {
         }}/>
       </Stack.Navigator>
     </NavigationContainer>
->>>>>>> e13668f5070e0cd3f6e0132e961fc7c18cdf36fa
   );
 }
