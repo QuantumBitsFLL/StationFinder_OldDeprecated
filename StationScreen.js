@@ -10,6 +10,19 @@ const StationScreen = () => {
         .then( response => response.json() )  
         .then( data => setStations( data ) )
     }, [] );
+
+    return (
+        <div>
+            {
+                stations.map( station => (
+                        <div>
+                            { station.name }
+                        </div>
+                    )
+                )
+            }
+        </div>
+    )
 }
 
 export default StationScreen;

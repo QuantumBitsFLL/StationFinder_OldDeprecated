@@ -1,9 +1,13 @@
 {
-    "stations": [
-        {
-            "id": 1,
-            "name": "Foo",
-            "description": "Bar"
-        }
-    ]
+  "stations": [
+    {
+      "id": 1,
+      "name": "Foo",
+      "description": "Bar"
+    },
+    {
+      "id": 2,
+      "name": "bar"
+    }
+  ]
 }
