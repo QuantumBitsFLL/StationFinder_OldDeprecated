@@ -12,16 +12,16 @@ const StationScreen = () => {
     }, [] );
 
     return (
-        <div>
+        <View>
             {
                 stations.map( station => (
-                        <div key = { station.id }>
+                        <View key = { station.id }>
                             { station.name }
-                        </div>
+                        </View>
                     )
                 )
             }
-        </div>
+        </View>
     )
 }
 
