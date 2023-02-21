@@ -13,7 +13,7 @@ export const getStations = ( baseUrl ) => {
 }
 
 const Stations = () => {
-    const stations = getStations( "localhost:8080" );
+    const stations = getStations( "http://localhost:8080" );
     return ( 
         <View>
                 { 
