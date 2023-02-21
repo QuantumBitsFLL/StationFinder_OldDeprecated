@@ -2,8 +2,7 @@
   "stations": [
     {
       "id": 1,
-      "name": "Foo",
-      "description": "Bar"
+      "name": "foo"
     },
     {
       "id": 2,
