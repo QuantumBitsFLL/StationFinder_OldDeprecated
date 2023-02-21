@@ -1,0 +1,9 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Foo",
+            "description": "Bar"
+        }
+    ]
+}
