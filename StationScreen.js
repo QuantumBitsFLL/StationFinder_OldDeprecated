@@ -15,7 +15,7 @@ const StationScreen = () => {
         <div>
             {
                 stations.map( station => (
-                        <div>
+                        <div key = { station.id }>
                             { station.name }
                         </div>
                     )
