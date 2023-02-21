@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { View, Text } from 'react-native'
+import { View, Text } from 'react-native';
 
 export const getStations = ( baseUrl ) => {
     const [ stations, setStations ] = useState( [] ); 
@@ -11,13 +11,13 @@ export const getStations = ( baseUrl ) => {
 }
 
 const Stations = () => {
-    stations = getStations( "localhost:8080" )
+    const stations = getStations( "localhost:8080" );
     return ( 
         <View>
                 { 
                     stations.map( station => {
                         <View>
-                            <Text key = { station.id }>{station.name}</Text>
+                            <Text key = { station.id }>{ station.name }</Text>
                         </View>
                     } 
                 ) }
