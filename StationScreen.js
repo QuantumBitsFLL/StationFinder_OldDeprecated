@@ -16,7 +16,7 @@ const StationScreen = () => {
             {
                 stations.map( station => (
                         <View key = { station.id }>
-                            { station.name }
+                            <Text>{ station.name }</Text>
                         </View>
                     )
                 )
