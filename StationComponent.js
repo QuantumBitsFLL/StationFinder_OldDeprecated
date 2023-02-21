@@ -8,6 +8,8 @@ export const getStations = ( baseUrl ) => {
         .then( response => response.json() )  
         .then( data => setStations( data ) )
     }, [] );
+
+    return stations;
 }
 
 const Stations = () => {
