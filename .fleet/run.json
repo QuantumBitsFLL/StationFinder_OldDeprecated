@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Run the app",
+            "type": "command",
+            "program": "nix-shell",
+            "args": [ "-p", "yarn", "--command", "yarn start" ],
+        },
+        {
+            "name": "Start the json server",
+            "type": "command",
+            "program": "nix-shell",
+            "args": [ "-p", "yarn", "--command", "yarn json-server" ],
+        }
+    ]
+}

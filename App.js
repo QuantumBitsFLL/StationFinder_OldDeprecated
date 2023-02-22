@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import StationScreen from './StationScreen';
 import styles from './Styles.css';
+import Stations from './StationComponent';
+
 
 
 const Stack = createNativeStackNavigator();
