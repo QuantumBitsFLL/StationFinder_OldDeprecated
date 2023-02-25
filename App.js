@@ -5,23 +5,26 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import StationScreen from './StationScreen';
 import styles from './Styles.css';
 import Stations from './StationComponent';
-
+import AppRoutes from './navigation/routes';
 
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-        name = 'StationScreen'
-        component = { StationScreen }
-        options = {{ 
-          title: "Station list | StationFinder", 
-          headerShown: false
-        }}/>
-      </Stack.Navigator>
-    </NavigationContainer>
+
+    <AppRoutes />
+
+    // <NavigationContainer>
+    //   <Stack.Navigator>
+    //     <Stack.Screen
+    //     name = 'StationScreen'
+    //     component = { StationScreen }
+    //     options = {{ 
+    //       title: "Station list | StationFinder", 
+    //       headerShown: false
+    //     }}/>
+    //   </Stack.Navigator>
+    // </NavigationContainer>
   );
 }
