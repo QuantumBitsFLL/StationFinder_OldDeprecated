@@ -84,7 +84,7 @@ const Onboarding = ({navigation}) => {
 
       <RadioSvg></RadioSvg>
 
-      <BigButton title ={"CONTINUE"}  onClick = {() => navigation.navigate('Login')} style ={{marginBottom:hp(4)}}  />
+      <BigButton title ={"CONTINUE"}  onClick = {() => navigation.navigate('Map')} style ={{marginBottom:hp(4)}}  />
     </View>
   );
 };
