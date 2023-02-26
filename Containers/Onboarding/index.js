@@ -6,7 +6,7 @@ import Logo from '../../Components/common/logo';
 import {hp, wp, normalize, isX} from '../../styles/responsiveScreen';
 // import SvgIcons from '../../assets/SvgIcons';
 import BigButton from '../../Components/BigButton';
-import { onBoardingData } from '../../utils/data';
+import { onBoardingData } from '../../Utils/data';
 
 import CheckMark from '../../assets/svgs/Login/done.svg';
 
@@ -84,7 +84,7 @@ const Onboarding = ({navigation}) => {
 
       <RadioSvg></RadioSvg>
 
-      <BigButton title ={"CONTINUE"}  onClick = {() => navigation.navigate('Login')} style ={{marginBottom:hp(4)}}  />
+      <BigButton title ={"CONTINUE"}  onClick = {() => navigation.navigate('Map')} style ={{marginBottom:hp(4)}}  />
     </View>
   );
 };

@@ -12,7 +12,7 @@ const {width, height} = Dimensions.get('screen');
 const Logo = props => {
   return (
     <View>
-      <div>WWW</div>
+      <div>Change me in Components/common/logo/index.js</div>
       {/* <LinearGradient
         start={{x: 0, y: 0}}
         end={{x: 1, y: 0}}
