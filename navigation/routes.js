@@ -3,6 +3,7 @@ import TabBar from '../Components/TabBar';
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from "@react-navigation/native";
+import MapScreen from "../Components/MapScreen";
 
 export const homeRouteName = 'Home';
 export const addRouteName = 'Blog';
@@ -77,6 +78,7 @@ export default function App() {
           screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Auth" component={AuthStackNavigator} />
           <Stack.Screen name="Tab" component={TabNavigator} />
+          <Stack.Screen name = "Map" component = { MapScreen }/>
         </Stack.Navigator>
       </NavigationContainer>
     );
