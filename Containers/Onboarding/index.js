@@ -70,7 +70,7 @@ const Onboarding = ({navigation}) => {
         pTop={hp(2)}
         pRight={isX ? wp(12) : wp(8)}
         color={'lightViolet'}>
-        {'CE VRETI AICI'}
+        StationFinder
       </FontText>
       <FlatList
         scrollEnabled={false}
